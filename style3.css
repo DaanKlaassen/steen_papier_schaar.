@@ -1,0 +1,46 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+center {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #333333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30D5C8;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #30D5C8;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#high-score {
+    display: inline-block;
+    font-weight: bold;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Steen Papier Schaar</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <h1>Meerdere Spelers</h1>
+            <div class="players-container">
+                <div class="player">
+                    <img id="player1-img" src="" alt="">
+                    <p>Speler 1: <span id="player1"></span></p>
+                </div>
+                <div class="player">
+                    <img id="player2-img" src="" alt="">
+                    <p>Speler 2: <span id="player2"></span></p>
+                </div>
+            </div>
+            <p id="result"></p>
+            <button id="rockBtn" onclick="chooseOption('steen')"><img src="steen.jpg"></button>
+            <button id="paperBtn" onclick="chooseOption('papier')"><img src="papier.jpg"></button>
+            <button id="scissorsBtn" onclick="chooseOption('schaar')"><img src="schaar.jpg"></button><br>
+            <button id="resetBtn" onclick="resetGame()">vernieuwen</button>
+        </div>
+        <li><a href="index.html">Terug</a></li>
+    </center>
+    <script src="multiscript.js"></script>
+</body>
+
+</html>
+

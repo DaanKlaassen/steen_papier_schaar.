@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Steen Papier Schaar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Steen Papier Schaar</h1>
+
+    <div class="button-container">
+        <button class="button" onclick="buttonClicked(1)">Een Speler</button>
+        <button class="button" onclick="buttonClicked(2)">Meerdere Spelers</button>
+    </div>
+
+    <script>
+        function buttonClicked(buttonId) {
+            if (buttonId === 1) {
+                window.location.href = "singleplayer.html";
+            } else if (buttonId === 2) {
+                window.location.href = "multiplayer.html";
+            }
+        }
+    </script>
+</body>
+
+</html>
