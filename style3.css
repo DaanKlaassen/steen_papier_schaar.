@@ -13,13 +13,7 @@ h1 {
 
 button {
     padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #30D5C8;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s;
+
 }
 
 button:hover {
